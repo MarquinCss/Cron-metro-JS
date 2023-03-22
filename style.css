@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image:url("https://i.pinimg.com/originals/4a/cf/e6/4acfe6fa8bb7090348a82dade705a247.jpg");
+    background-size:100%;
+    background-position: center;
+
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align:center
+}
+.cronometro{
+    box-shadow: 15px 5px 14px 0px #000000;
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#ff9aab;
+    width:500px;
+    height:300px;
+    border-radius:50px;
+    border: 2px solid #000000;
+}
+
+.display{
+    border:1px solid #000000;
+    text-align: center;
+    font-size:40px;
+    width:250px;
+    height:140px;
+    margin-bottom:30px;
+    color:	#006400;
+    background-color:rgba(46, 139, 86, 0.753);
+    border-radius:30px;
+}
+
+#seconds{
+    font-size:60px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.btn {
+    width:70px;
+    height:40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #ff3884;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    transition: all .3s ease;
+    box-shadow: #a02335 ;
+    color:#ffff;
+    border: 1px solid black;
+   }
+   
+   .btn:hover {
+    box-shadow: 0px 5px 1px 1px #c92e46 ;
+   }
+   
+   .btn:active {
+    background-color: #e0296f;
+    transform: translateY(5px);
+    transition: 200ms;
+   }
+
+
+   footer{
+       text-align: center;
+       font-size:23px;
+     
+   }
+
+   footer .redes{
+       font-size:30px;
+       color:#000000;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap:36px;
+       
+   }
+
+   a{
+       color:#000000;
+   }
+
+   i{
+       transition:2s;
+}
+
+ i:hover{
+       transform: rotate(12px);
+       transform: scale(1.5);
+       
+   }
